@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swetha Amuda | Professional Makeup Artist</title>
+<meta name="description" content="Professional Makeup Artist, Hairstylist & Beauty Educator in Hyderabad.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#fffaf7;--surface:#fff;--card:#fff;--text:#2a1f1f;--muted:#7a6a6a;
+--accent:#c58a7a;--accent2:#e7c6bc;--border:#f0dfd8;
+--s1:8px;--s2:16px;--s3:24px;--s4:32px;--s5:48px;--s6:64px;
+}
+.dark{
+--bg:#141012;--surface:#1b1518;--card:#21191d;--text:#f7f2ef;--muted:#c5b4b0;
+--accent:#d8a090;--accent2:#9f6f63;--border:#32262b;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:16px 5%;backdrop-filter:blur(12px);background:rgba(255,255,255,.08);z-index:999}
+.dark nav{background:rgba(0,0,0,.2)}
+nav a{text-decoration:none;color:var(--text);margin-left:18px}
+.btn{background:var(--accent);color:white;padding:12px 18px;border-radius:999px;text-decoration:none}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 24px;background:radial-gradient(circle at top, rgba(197,138,122,.25), transparent 55%)}
+h1{font-size:64px;line-height:1.1;letter-spacing:-.02em;margin:0}
+h2{font-size:40px}
+.subtitle{font-size:24px;color:var(--accent);min-height:36px}
+section{padding:96px 8%}
+.grid{display:grid;gap:24px}
+.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--card);padding:24px;border-radius:20px;border:1px solid var(--border);transition:.3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.12)}
+.timeline{border-left:3px solid var(--accent);padding-left:24px}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--accent2);margin:6px}
+.progress{height:6px;background:#ddd;border-radius:999px;overflow:hidden;margin-top:8px}
+.progress span{display:block;height:100%;background:var(--accent)}
+.fade{opacity:0;transform:translateY(30px);transition:.8s}
+.fade.show{opacity:1;transform:none}
+footer{text-align:center;padding:32px}
+.toggle{cursor:pointer}
+.contact{text-align:center}
+</style>
+</head>
+<body class="dark">
+<nav>
+<div><strong>Swetha Amuda</strong></div>
+<div>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#work">Featured Work</a>
+<a href="#contact">Contact</a>
+<a class="btn" href="https://wa.me/917799056060">Hire Me</a>
+<span class="toggle">🌙</span>
+</div>
+</nav>
+
+<header class="hero">
+<div>
+<h1>Swetha Amuda</h1>
+<div class="subtitle" id="type"></div>
+<p>Professional makeup artist from Hyderabad creating elegant bridal, fashion and editorial beauty experiences.</p>
+<a class="btn" href="#contact">Book a Consultation</a>
+</div>
+</header>
+
+<section id="about" class="fade">
+<h2>About</h2>
+<div class="grid two">
+<div>
+<p>With 3+ years of professional experience, Swetha Amuda specializes in bridal makeup, hairstyling and beauty education. Her work combines technical excellence, creativity and a client-first approach to create memorable transformations.</p>
+</div>
+<div class="card">
+<h3>Highlights</h3>
+<p><strong>3+</strong> Years Experience</p>
+<p><strong>Multiple</strong> Industry Events</p>
+<p><strong>VLCC Academy</strong> Certified</p>
+<p><strong>Beauty Educator</strong></p>
+</div>
+</div>
+</section>
+
+<section id="experience" class="fade">
+<h2>Experience</h2>
+<div class="timeline">
+<div class="card">
+<h3>Professional Makeup Artist, Hairstylist & Educator</h3>
+<p>2022 – Present</p>
+<ul>
+<li>Delivered bridal and special occasion makeup services.</li>
+<li>Provided hairstyling and complete beauty transformations.</li>
+<li>Conducted beauty education and training sessions.</li>
+<li>Worked across events, fashion and editorial projects.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="skills" class="fade">
+<h2>Expertise</h2>
+<div>
+<span class="badge">Bridal Makeup</span>
+<span class="badge">Hairstyling</span>
+<span class="badge">Beauty Training</span>
+<span class="badge">Editorial Makeup</span>
+<span class="badge">Fashion Makeup</span>
+<span class="badge">Client Consultation</span>
+</div>
+<div class="card">
+Bridal Makeup
+<div class="progress"><span style="width:95%"></span></div>
+Fashion Makeup
+<div class="progress"><span style="width:90%"></span></div>
+Hairstyling
+<div class="progress"><span style="width:92%"></span></div>
+</div>
+</section>
+
+<section id="work" class="fade">
+<h2>Featured Work</h2>
+<div class="grid two">
+<div class="card"><h3>Bridal Makeup Transformations</h3><p>Luxury bridal looks crafted for weddings and celebrations.</p></div>
+<div class="card"><h3>Celebrity & VIP Styling</h3><p>Professional beauty services for high-profile appearances.</p></div>
+<div class="card"><h3>Fashion Shoot Makeup</h3><p>Camera-ready looks designed for fashion productions.</p></div>
+<div class="card"><h3>Editorial Beauty Campaigns</h3><p>Creative beauty concepts for editorial storytelling.</p></div>
+<div class="card"><h3>Makeup Workshops</h3><p>Hands-on learning experiences for aspiring artists.</p></div>
+<div class="card"><h3>Beauty Training Sessions</h3><p>Professional education focused on makeup artistry techniques.</p></div>
+</div>
+</section>
+
+<section class="fade">
+<h2>Academy & Education</h2>
+<div class="card">
+<h3>VLCC Makeup Academy</h3>
+<p>Professional training in makeup artistry and hairstyling.</p>
+</div>
+</section>
+
+<section class="fade">
+<h2>Events</h2>
+<div class="grid two">
+<div class="card">Miss & Mrs South India</div>
+<div class="card">Vamsi Events & Moard Foundation</div>
+</div>
+</section>
+
+<section class="fade">
+<h2>Certifications</h2>
+<div class="card">
+Professional Makeup & Hairstyle Artist Certification — VLCC Academy
+</div>
+</section>
+
+<section id="contact" class="contact fade">
+<h2>Let's Build Something Beautiful Together</h2>
+<p><a href="mailto:swethakapukar@gmail.com">swethakapukar@gmail.com</a></p>
+<p><a href="https://wa.me/917799056060">WhatsApp</a> • <a href="https://instagram.com/Swetha_Makeover">Instagram @Swetha_Makeover</a></p>
+</section>
+
+<footer>Swetha Amuda © 2026 • Built with HTML, CSS & JavaScript</footer>
+
+<script>
+const roles=["Professional Makeup Artist","Hairstylist","Beauty Educator"];
+let i=0,j=0,del=false;
+function type(){
+let el=document.getElementById('type');
+let w=roles[i];
+el.textContent=w.substring(0,j);
+if(!del){j++; if(j>w.length){del=true;setTimeout(type,1200);return;}}
+else {j--; if(j===0){del=false;i=(i+1)%roles.length;}}
+setTimeout(type,del?50:100);
+}
+type();
+
+document.querySelector('.toggle').onclick=()=>document.body.classList.toggle('dark');
+
+const obs=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show');});
+});
+document.querySelectorAll('.fade').forEach(x=>obs.observe(x));
+</script>
+</body>
+</html>
